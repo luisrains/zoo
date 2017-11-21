@@ -1,0 +1,11 @@
+body{
+	background: #eee;
+}
+
+.boton_transiciones{
+	padding: 10px;
+	background: red;
+	color: white;
+	border-radius: 20px;
+	border: 1px solid orange;
+}
