@@ -40,7 +40,7 @@ function saveAnimal(req,res){
 	}else{
 		res.status(500).send({message: 'El nombre del animal es obligatorio'});
 	}
-	
+
 }
 
 function getAnimals(req,res){
@@ -99,7 +99,7 @@ function uploadImageAnimal(req,res){
 		var file_path = req.files.image.path;
 		var file_split = file_path.split('/');
 		var file_name = file_split[2];
-		
+
 		var extension_split = file_name.split('\.');
 		var file_ext = extension_split[1];
 
